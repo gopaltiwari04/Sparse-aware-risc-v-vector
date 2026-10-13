@@ -1,0 +1,22 @@
+Global frequency set at 1000000000000 ticks per second
+src/arch/riscv/isa.cc:321: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/arch/riscv/linux/se_workload.cc:73: warn: Unknown operating system; assuming Linux.
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+src/base/stats/storage.hh:278: warn: Bucket size (4) does not divide range [1:32] into equal-sized buckets. Rounding up.
+src/base/stats/storage.hh:278: warn: Bucket size (4) does not divide range [1:8] into equal-sized buckets. Rounding up.
+board.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 25.1.0.1
+gem5 compiled Aug 27 2026 17:26:06
+gem5 started Oct 13 2026 09:28:06
+gem5 executing on Govind, pid 807
+command line: /home/tewar/CA_Assignment1/gem5/build/RISCV/gem5.opt -d results/spmv_80 configs/rvv_test.py --binary workloads/spmv_rvv --vlen 256 --elen 64 --program-args 20
+
+Starting RVV test simulation
+Binary: /home/tewar/sparse-aware-riscv-vector/workloads/spmv_rvv
+VLEN=256, ELEN=64
+N=256 density=20% sparsity=80% nnz=12915
+Checksum=3674.374445438 max_error=4.76837158e-06
+VALIDATION PASSED

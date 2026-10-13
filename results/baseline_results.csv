@@ -1,0 +1,3 @@
+sparsity_percent,density_percent,matrix_size,nnz,sim_ticks,simulated_time_us,simulated_cycles,sim_instructions,max_error,validation
+80,20,256x256,12915,569393000,569.393,569393,1409447,4.76837158e-06,PASSED
+40,60,256x256,39181,744567000,744.567,744567,2073307,1.90734863e-05,PASSED
