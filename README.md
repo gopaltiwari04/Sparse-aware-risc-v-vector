@@ -9,7 +9,7 @@ using Sparse Matrix-Vector Multiplication (SpMV).
 2. Set up and validate the baseline RISC-V simulation environment.
 3. Run baseline RVV execution on SpMV or an equivalent sparse workload.
 4. Evaluate at least two sparsity levels.
-5. Report execution time and performance.
+5. Report execution time and baseline performance.
 
 ## Project Structure
 - docs/: Literature review and experiment notes
@@ -21,4 +21,4 @@ using Sparse Matrix-Vector Multiplication (SpMV).
 - plots/: Performance graphs
 
 ## Experimental Status
-Environment verification in progress.
+Environment located; RVV execution validation pending.
